@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <title>The Dance School</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="css/all.css">
+    </head>     
+        <section class="header">
+            <nav>
+
+                <a href="index.html"><img src="images/NATYAM.JFIF"></a>
+                <div class="nav-links" id="navlinks"> 
+                    <i class="fa fa-regular fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">EVENTS</a></li>
+                        <li><a href="">CLASSES</a></li>
+                        <li><a href="">DIPLOMA RESOURCES</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+
+                    </ul>
+                </div>
+
+                <i class="fa fa-solid fa-bars" onclick="showMenu()" ></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>The Bharathnatiyam Dance School </h1>
+                <p>Bharatanatyam (Tamil: பரதநாட்டியம்) is a major form of Indian classical dance that originated in Tamil Nadu. The dance form is also briefly mentioned in Kannada text Manasollasa written by Someshwara III.
+                     It has flourished in the temples and courts of southern India since ancient times. It is one of the eight widely recognized Indian classical dance forms, and expresses South Indian religious themes and spiritual ideas, particularly of Shaivism, Vaishnavism, and Shaktism, collectively Hinduism.</p>
+                <a href="" class="hero-btn">Visit us to know more </a>
+            </div>
+        </section>
+    
+<!---------- course ----------->
+    
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>There are many levels in Bharatanatyam</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Beginner </h3>
+            <p>All adavus come under this level</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate </h3>
+            <p>Alarippu,Jathiswaram is this level</p>
+        </div>
+        <div class="course-col">
+            <h3>Advanced</h3>
+            <p>Shabdham is this level</p>
+        </div>
+        <div class="course-col">
+            <h3>Advanced</h3>
+            <p>Varnam is this level</p>
+        </div>
+    </div>
+</section>
+
+<!---------- Events ---------->
+    
+<section class="Events">
+    <h1>All the events are listed here</h1>
+        <div class="row">
+            <div class="Events-col">
+                <div class="layer">
+                    <h3>India Fest</h3>
+                </div>
+                <img src="images/indiafest.jpg">
+            </div>
+            <div class="Events-col">
+
+                <div class="layer">
+                    <h3>Annual Day</h3>
+                </div>
+                <img src="images/annualday.jfif">
+            </div>
+            <div class="Events-col">
+     
+                <div class="layer">
+                    <h3>Arangetram</h3>
+                </div>
+                <img src="images/arangetram.jpg">
+            </div>
+            
+        </div>
+</section>
+
+
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu()
+            {
+                navlinks.style.right=0;
+            }
+            function hideMenu()
+            {
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+
+</html>
